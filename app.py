@@ -146,14 +146,22 @@ bahan_kimia = {
 nama_bahan = st.text_input("Masukkan nama bahan kimia:")
 
 if nama_bahan:
-    data = bahan_kimia.get(nama_bahan.title())
-    if data:
-        st.subheader(f"Informasi tentang {nama_bahan.title()}:")
-        st.write(f"*Rumus Kimia:* {data['Rumus']}")
-        st.write(f"*Bahaya:* {data['Bahaya']}")
-        st.write(f"*Tindakan Pencegahan:* {data['Tindakan Pencegahan']}")
-        st.write(f"*Penyimpanan:* {data['Penyimpanan']}")
-    else:
+    found = False
+    for key, data in bahan_kimia.items():
+        # Normalisasi: ganti underscore jadi spasi, lowercase semua
+        key_normalized = key.replace('_', ' ').lower()
+        input_normalized = nama_bahan.lower()
+
+        # Cek apakah input ada di nama bahan
+        if input_normalized in key_normalized:
+            st.subheader(f"Informasi tentang {key.replace('_', ' ').title()}:")
+            st.write(f"*Rumus Kimia:* {data['Rumus']}")
+            st.write(f"*Bahaya:* {data['Bahaya']}")
+            st.write(f"*Tindakan Pencegahan:* {data['Tindakan Pencegahan']}")
+            st.write(f"*Penyimpanan:* {data['Penyimpanan']}")
+            found = True
+
+    if not found:
         st.error("Data bahan kimia tidak ditemukan. Silakan coba nama lain.")
 else:
     st.info("Masukkan nama bahan kimia untuk melihat informasinya.")
