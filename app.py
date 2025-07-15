@@ -608,7 +608,7 @@ bahan_kimia = {
     "Penyimpanan": "Simpan di tempat gelap dan tertutup."
   },
   
-  "Apigenin":
+  "Apigenin":{
     "Rumus": "C15H10O5",
     "Bahaya": "Iritasi ringan jika terhirup.",
     "Tindakan Pencegahan": "Gunakan masker.",
