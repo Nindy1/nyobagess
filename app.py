@@ -634,7 +634,7 @@ bahan_kimia = {
     "Bahaya": "Dapat memengaruhi sistem saraf pusat.",
     "Tindakan Pencegahan": "Gunakan dalam konteks medis/laboratorium.",
     "Penyimpanan": "Simpan dalam kondisi dingin dan stabil."
-  }
+  },
   
   "Histamin":{
     "Rumus": "C5H9N3",
