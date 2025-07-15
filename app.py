@@ -25,14 +25,14 @@ bahan_kimia = {
     "Penyimpanan": "Simpan di tempat sejuk dan tertutup rapat."
   },
   
-"Metanol":{
+ "Metanol":{
     "Rumus": "CH3OH",
     "Bahaya": "Beracun jika tertelan, dapat menyebabkan kebutaan dan kematian.",
     "Tindakan Pencegahan": "Hindari konsumsi dan kontak kulit, gunakan ventilasi baik.",
     "Penyimpanan": "Simpan di tempat tertutup dan jauh dari api."
   },
  
-"Etil asetat":{
+ "Etil asetat":{
     "Rumus": "C4H8O2",
     "Bahaya": "Mudah menguap dan mudah terbakar, dapat menyebabkan iritasi mata dan pernapasan.",
     "Tindakan Pencegahan": "Gunakan di area berventilasi, hindari kontak langsung.",
