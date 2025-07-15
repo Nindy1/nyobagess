@@ -139,7 +139,63 @@ bahan_kimia = {
     "Bahaya": "Korosif, menyebabkan iritasi dan luka bakar.",
     "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
     "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
-}
+  },
+ 
+  "Akrilonitril":{
+    "Rumus": "C3H3N",
+    "Bahaya": "Beracun, mudah terbakar, iritasi saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan APD, hindari inhalasi.",
+    "Penyimpanan": "Simpan jauh dari api dan panas."
+  },
+  
+  "Asam kaproat":{
+    "Rumus": "C6H12O2",
+    "Bahaya": "Iritasi kulit dan mata.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan dan pelindung mata.",
+    "Penyimpanan": "Simpan di tempat kering dan tertutup."
+  },
+  
+  "Butil alkohol":{
+    "Rumus": "C4H10O",
+    "Bahaya": "Mudah terbakar, iritasi kulit dan pernapasan.",
+    "Tindakan Pencegahan": "Gunakan ventilasi baik dan hindari kontak kulit.",
+    "Penyimpanan": "Simpan jauh dari api."
+  },
+ 
+  "Asam oksalat":{
+    "Rumus": "C2H2O4",
+    "Bahaya": "Korosif, dapat menyebabkan iritasi kulit dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan APD lengkap dan hindari inhalasi.",
+    "Penyimpanan": "Simpan dalam wadah tertutup."
+  },
+  
+  "Metil metakrilat":{
+    "Rumus": "C5H8O2",
+    "Bahaya": "Mudah terbakar, iritasi mata dan kulit.",
+    "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
+    "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
+  },
+  
+  "Asam laktat":{
+    "Rumus": "C3H6O3",
+    "Bahaya": "Iritasi ringan pada kulit dan mata.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan jika kontak langsung.",
+    "Penyimpanan": "Simpan di tempat kering."
+  },
+ 
+  "Benzaldehida":{
+    "Rumus": "C7H6O",
+    "Bahaya": "Iritasi kulit dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan masker dan sarung tangan.",
+    "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
+  },
+  
+  "Asam maleat":{
+    "Rumus": "C4H4O4",
+    "Bahaya": "Iritasi kulit, mata, dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan APD lengkap
+  },
+
 }
 
 # Input pencarian bahan kimia
