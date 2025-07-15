@@ -38,103 +38,103 @@ bahan_kimia = {
     "Tindakan Pencegahan": "Gunakan di area berventilasi, hindari kontak langsung.",
     "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
   },
-  "Formaldehida":{
+ "Formaldehida":{
     "Rumus": "CH2O",
     "Bahaya": "Karsinogen, iritasi kulit dan saluran pernapasan.",
     "Tindakan Pencegahan": "Gunakan APD lengkap, hindari inhalasi.",
     "Penyimpanan": "Simpan di tempat gelap dan dingin."
   },
-  "Asam asetat":{
+ "Asam asetat":{
     "Rumus": "CH3COOH",
     "Bahaya": "Iritasi kulit dan mata, korosif pada konsentrasi tinggi.",
     "Tindakan Pencegahan": "Gunakan sarung tangan dan pelindung mata.",
     "Penyimpanan": "Simpan dalam wadah tertutup rapat."
   },
-  "Aseton":{
+ "Aseton":{
     "Rumus": "C3H6O",
     "Bahaya": "Mudah terbakar, iritasi mata dan pernapasan.",
     "Tindakan Pencegahan": "Gunakan di area berventilasi, hindari kontak langsung.",
     "Penyimpanan": "Simpan jauh dari sumber api."
   },
-  "Fenol":{
+ "Fenol":{
     "Rumus": "C6H5OH",
     "Bahaya": "Beracun, korosif, dapat menyebabkan luka bakar kulit.",
     "Tindakan Pencegahan": "Gunakan APD lengkap, hindari kontak langsung.",
     "Penyimpanan": "Simpan di tempat sejuk dan tertutup rapat."
   },
-  "Kloroform":{
+ "Kloroform":{
     "Rumus": "CHCl3",
     "Bahaya": "Beracun, karsinogen, dapat menyebabkan kerusakan hati.",
     "Tindakan Pencegahan": "Gunakan APD dan ventilasi baik.",
     "Penyimpanan": "Simpan di tempat gelap dan sejuk."
   },
-  "Etilena glikol":{
+ "Etilena glikol":{
     "Rumus": "C2H6O2",
     "Bahaya": "Beracun jika tertelan, menyebabkan gagal ginjal.",
     "Tindakan Pencegahan": "Gunakan sarung tangan, hindari konsumsi.",
     "Penyimpanan": "Simpan di tempat sejuk dan berventilasi."
   },
-  "Asam format":{
+ "Asam format":{
     "Rumus": "HCOOH",
     "Bahaya": "Korosif, dapat menyebabkan iritasi dan luka bakar.",
     "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
     "Penyimpanan": "Simpan dalam wadah tertutup."
   },
-  "Stirena":{
+ "Stirena":{
     "Rumus": "C8H8",
     "Bahaya": "Mudah terbakar, iritasi kulit dan pernapasan.",
     "Tindakan Pencegahan": "Gunakan ventilasi baik dan hindari kontak kulit.",
     "Penyimpanan": "Simpan jauh dari api dan panas."
   },
-  "Keton metil etil":{
+ "Keton metil etil":{
     "Rumus": "C4H8O",
     "Bahaya": "Mudah terbakar, mengiritasi mata dan pernapasan.",
     "Tindakan Pencegahan": "Gunakan alat pelindung dan ventilasi baik.",
     "Penyimpanan": "Simpan tertutup dan jauh dari api."
   },
-  "Nitrobenzena":{
+ "Nitrobenzena":{
     "Rumus": "C6H5NO2",
     "Bahaya": "Beracun, dapat menyebabkan keracunan darah.",
     "Tindakan Pencegahan": "Gunakan APD lengkap dan hindari inhalasi.",
     "Penyimpanan": "Simpan di tempat sejuk dan tertutup."
   },
-  "Asam benzoat":{
+ "Asam benzoat":{
     "Rumus": "C7H6O2",
     "Bahaya": "Dapat menyebabkan iritasi kulit dan mata.",
     "Tindakan Pencegahan": "Gunakan sarung tangan dan kacamata pelindung.",
     "Penyimpanan": "Simpan di tempat kering dan tertutup."
   },
-  "Asam salisilat":{
+ "Asam salisilat":{
     "Rumus": "C7H6O3",
     "Bahaya": "Dapat menyebabkan iritasi kulit dan reaksi alergi.",
     "Tindakan Pencegahan": "Gunakan sarung tangan, hindari kontak langsung.",
     "Penyimpanan": "Simpan di tempat sejuk dan kering."
   },
-  "Etil alkohol (etanol)":{
+ "Etil alkohol (etanol)":{
     "Rumus": "C2H5OH",
     "Bahaya": "Mudah terbakar, mengiritasi mata dan kulit.",
     "Tindakan Pencegahan": "Hindari sumber api, gunakan ventilasi baik.",
     "Penyimpanan": "Simpan di tempat sejuk dan tertutup."
   },
-  "Asam propionat":{
+ "Asam propionat":{
     "Rumus": "C3H6O2",
     "Bahaya": "Iritasi kulit dan mata.",
     "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
     "Penyimpanan": "Simpan di tempat sejuk dan tertutup."
   },
-  "Asam format metil":{
+ "Asam format metil":{
     "Rumus": "HCOOCH3",
     "Bahaya": "Iritasi pada kulit dan mata, mudah terbakar.",
     "Tindakan Pencegahan": "Gunakan APD dan ventilasi baik.",
     "Penyimpanan": "Simpan jauh dari sumber api."
   },
-  "Isopropanol":{
+ "Isopropanol":{
     "Rumus": "C3H8O",
     "Bahaya": "Mudah terbakar, mengiritasi mata dan saluran pernapasan.",
     "Tindakan Pencegahan": "Gunakan di area berventilasi, hindari kontak langsung.",
     "Penyimpanan": "Simpan tertutup dan jauh dari api."
   },
-  "Asam klorida asetat":{
+ "Asam klorida asetat":{
     "Rumus": "CH2ClCOOH",
     "Bahaya": "Korosif, menyebabkan iritasi dan luka bakar.",
     "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
