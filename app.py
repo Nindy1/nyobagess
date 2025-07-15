@@ -804,7 +804,32 @@ else:
     st.info("Masukkan nama bahan kimia untuk melihat informasinya.")
 
 
- if nama in gambar_molekul:
+ import streamlit as st
+
+st.title("Daftar Bahan Kimia Organik")
+
+# Contoh data gambar (Anda harus menyesuaikan path atau URL-nya)
+gambar_molekul = {
+    "Benzena": "gambar/benzena.png",
+    "Toluena": "gambar/toluena.png",
+    # Tambahkan semua gambar sesuai nama key bahan_kimia
+}
+
+vibrasi_molekul = {
+    "Benzena": "vibrasi/benzena.gif",
+    "Toluena": "vibrasi/toluena.gif",
+    # Tambahkan semua vibrasi sesuai nama key bahan_kimia
+}
+
+for nama, data in bahan_kimia.items():
+    st.header(f"{nama.replace('_', ' ').title()}")
+    st.write(f"**Rumus Kimia:** {data['Rumus']}")
+    st.write(f"**Bahaya:** {data['Bahaya']}")
+    st.write(f"**Tindakan Pencegahan:** {data['Tindakan Pencegahan']}")
+    st.write(f"**Penyimpanan:** {data['Penyimpanan']}")
+    
+    # Tampilkan gambar molekul
+    if nama in gambar_molekul:
         st.image(gambar_molekul[nama], caption=f"Struktur {nama}")
     else:
         st.info("Gambar belum tersedia.")
