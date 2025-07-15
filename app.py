@@ -774,8 +774,7 @@ bahan_kimia = {
     "Bahaya": "Iritasi kulit dan mata.",
     "Tindakan Pencegahan": "Gunakan APD dan hindari kontak langsung.",
     "Penyimpanan": "Simpan di tempat kering dan berventilasi."
-  },
-}
+  }
 
 
 # Input pencarian bahan kimia
