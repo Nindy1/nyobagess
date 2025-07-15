@@ -5,758 +5,215 @@ st.title("Bahaya pada Bahan Kimia")
 
 # Data bahan kimia contoh
 bahan_kimia = {
+    [
   {
-    "No":1,
-    "Bahan":"Benzena",
-    "Bahaya":"Karsinogen, mudah terbakar"
+    "Nama": "Benzena",
+    "Rumus": "C6H6",
+    "Bahaya": "Karsinogen, mudah terbakar, iritasi kulit dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan APD, hindari inhalasi dan kontak langsung.",
+    "Penyimpanan": "Simpan di tempat sejuk dan jauh dari api."
   },
   {
-    "No":2,
-    "Bahan":"Toluena",
-    "Bahaya":"Iritasi pernapasan, neurotoksik"
+    "Nama": "Toluena",
+    "Rumus": "C7H8",
+    "Bahaya": "Mudah terbakar, dapat menyebabkan pusing dan iritasi pernapasan.",
+    "Tindakan Pencegahan": "Gunakan masker dan ventilasi baik.",
+    "Penyimpanan": "Simpan jauh dari sumber api."
   },
   {
-    "No":3,
-    "Bahan":"Xilena",
-    "Bahaya":"Beracun, mudah terbakar"
+    "Nama": "Xilena",
+    "Rumus": "C8H10",
+    "Bahaya": "Iritasi kulit, mata, dan saluran pernapasan, beracun jika tertelan.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan dan ventilasi baik.",
+    "Penyimpanan": "Simpan di tempat sejuk dan tertutup rapat."
   },
   {
-    "No":4,
-    "Bahan":"Fenol",
-    "Bahaya":"Korosif, beracun"
+    "Nama": "Metanol",
+    "Rumus": "CH3OH",
+    "Bahaya": "Beracun jika tertelan, dapat menyebabkan kebutaan dan kematian.",
+    "Tindakan Pencegahan": "Hindari konsumsi dan kontak kulit, gunakan ventilasi baik.",
+    "Penyimpanan": "Simpan di tempat tertutup dan jauh dari api."
   },
   {
-    "No":5,
-    "Bahan":"Anilin",
-    "Bahaya":"Beracun, dapat diserap kulit"
+    "Nama": "Etil asetat",
+    "Rumus": "C4H8O2",
+    "Bahaya": "Mudah menguap dan mudah terbakar, dapat menyebabkan iritasi mata dan pernapasan.",
+    "Tindakan Pencegahan": "Gunakan di area berventilasi, hindari kontak langsung.",
+    "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
   },
   {
-    "No":6,
-    "Bahan":"Formaldehida",
-    "Bahaya":"Karsinogen, iritasi kuat"
+    "Nama": "Formaldehida",
+    "Rumus": "CH2O",
+    "Bahaya": "Karsinogen, iritasi kulit dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan APD lengkap, hindari inhalasi.",
+    "Penyimpanan": "Simpan di tempat gelap dan dingin."
   },
   {
-    "No":7,
-    "Bahan":"Aseton",
-    "Bahaya":"Mudah terbakar, iritasi"
+    "Nama": "Asam asetat",
+    "Rumus": "CH3COOH",
+    "Bahaya": "Iritasi kulit dan mata, korosif pada konsentrasi tinggi.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan dan pelindung mata.",
+    "Penyimpanan": "Simpan dalam wadah tertutup rapat."
   },
   {
-    "No":8,
-    "Bahan":"Metanol",
-    "Bahaya":"Beracun, risiko kebutaan"
+    "Nama": "Aseton",
+    "Rumus": "C3H6O",
+    "Bahaya": "Mudah terbakar, iritasi mata dan pernapasan.",
+    "Tindakan Pencegahan": "Gunakan di area berventilasi, hindari kontak langsung.",
+    "Penyimpanan": "Simpan jauh dari sumber api."
   },
   {
-    "No":9,
-    "Bahan":"Etanol",
-    "Bahaya":"Mudah terbakar, iritasi mata"
+    "Nama": "Fenol",
+    "Rumus": "C6H5OH",
+    "Bahaya": "Beracun, korosif, dapat menyebabkan luka bakar kulit.",
+    "Tindakan Pencegahan": "Gunakan APD lengkap, hindari kontak langsung.",
+    "Penyimpanan": "Simpan di tempat sejuk dan tertutup rapat."
   },
   {
-    "No":10,
-    "Bahan":"Propanol",
-    "Bahaya":"Mudah terbakar, iritasi"
+    "Nama": "Kloroform",
+    "Rumus": "CHCl3",
+    "Bahaya": "Beracun, karsinogen, dapat menyebabkan kerusakan hati.",
+    "Tindakan Pencegahan": "Gunakan APD dan ventilasi baik.",
+    "Penyimpanan": "Simpan di tempat gelap dan sejuk."
   },
   {
-    "No":11,
-    "Bahan":"Butanol",
-    "Bahaya":"Mudah terbakar, iritasi"
+    "Nama": "Etilena glikol",
+    "Rumus": "C2H6O2",
+    "Bahaya": "Beracun jika tertelan, menyebabkan gagal ginjal.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan, hindari konsumsi.",
+    "Penyimpanan": "Simpan di tempat sejuk dan berventilasi."
   },
   {
-    "No":12,
-    "Bahan":"Asam asetat",
-    "Bahaya":"Korosif, iritasi saluran napas"
+    "Nama": "Asam format",
+    "Rumus": "HCOOH",
+    "Bahaya": "Korosif, dapat menyebabkan iritasi dan luka bakar.",
+    "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
+    "Penyimpanan": "Simpan dalam wadah tertutup."
   },
   {
-    "No":13,
-    "Bahan":"Akrilonitril",
-    "Bahaya":"Karsinogen, mudah terbakar"
+    "Nama": "Stiren",
+    "Rumus": "C8H8",
+    "Bahaya": "Mudah terbakar, iritasi kulit dan pernapasan.",
+    "Tindakan Pencegahan": "Gunakan ventilasi baik dan hindari kontak kulit.",
+    "Penyimpanan": "Simpan jauh dari api dan panas."
   },
   {
-    "No":14,
-    "Bahan":"Etilena Oksida",
-    "Bahaya":"Karsinogen, reaktif"
+    "Nama": "Keton metil etil",
+    "Rumus": "C4H8O",
+    "Bahaya": "Mudah terbakar, mengiritasi mata dan pernapasan.",
+    "Tindakan Pencegahan": "Gunakan alat pelindung dan ventilasi baik.",
+    "Penyimpanan": "Simpan tertutup dan jauh dari api."
   },
   {
-    "No":15,
-    "Bahan":"Stirena",
-    "Bahaya":"Iritasi pernapasan, neurotoksik"
+    "Nama": "Nitrobenzena",
+    "Rumus": "C6H5NO2",
+    "Bahaya": "Beracun, dapat menyebabkan keracunan darah.",
+    "Tindakan Pencegahan": "Gunakan APD lengkap dan hindari inhalasi.",
+    "Penyimpanan": "Simpan di tempat sejuk dan tertutup."
   },
   {
-    "No":16,
-    "Bahan":"Asam benzoat",
-    "Bahaya":"Iritasi kulit, mata"
+    "Nama": "Asam benzoat",
+    "Rumus": "C7H6O2",
+    "Bahaya": "Dapat menyebabkan iritasi kulit dan mata.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan dan kacamata pelindung.",
+    "Penyimpanan": "Simpan di tempat kering dan tertutup."
   },
   {
-    "No":17,
-    "Bahan":"Asam sitrat",
-    "Bahaya":"Iritasi ringan"
+    "Nama": "Asam salisilat",
+    "Rumus": "C7H6O3",
+    "Bahaya": "Dapat menyebabkan iritasi kulit dan reaksi alergi.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan, hindari kontak langsung.",
+    "Penyimpanan": "Simpan di tempat sejuk dan kering."
   },
   {
-    "No":18,
-    "Bahan":"Asam format",
-    "Bahaya":"Korosif, toksik"
+    "Nama": "Etil alkohol (etanol)",
+    "Rumus": "C2H5OH",
+    "Bahaya": "Mudah terbakar, mengiritasi mata dan kulit.",
+    "Tindakan Pencegahan": "Hindari sumber api, gunakan ventilasi baik.",
+    "Penyimpanan": "Simpan di tempat sejuk dan tertutup."
   },
   {
-    "No":19,
-    "Bahan":"Asam laktat",
-    "Bahaya":"Iritasi kulit"
+    "Nama": "Asam propionat",
+    "Rumus": "C3H6O2",
+    "Bahaya": "Iritasi kulit dan mata.",
+    "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
+    "Penyimpanan": "Simpan di tempat sejuk dan tertutup."
   },
   {
-    "No":20,
-    "Bahan":"Asam oksalat",
-    "Bahaya":"Beracun, korosif"
+    "Nama": "Asam format metil",
+    "Rumus": "HCOOCH3",
+    "Bahaya": "Iritasi pada kulit dan mata, mudah terbakar.",
+    "Tindakan Pencegahan": "Gunakan APD dan ventilasi baik.",
+    "Penyimpanan": "Simpan jauh dari sumber api."
   },
   {
-    "No":21,
-    "Bahan":"Kloroform",
-    "Bahaya":"Karsinogen, toksik hati"
+    "Nama": "Isopropanol",
+    "Rumus": "C3H8O",
+    "Bahaya": "Mudah terbakar, mengiritasi mata dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan di area berventilasi, hindari kontak langsung.",
+    "Penyimpanan": "Simpan tertutup dan jauh dari api."
   },
   {
-    "No":22,
-    "Bahan":"Karbon tetraklorida",
-    "Bahaya":"Karsinogen, hepatotoksik"
+    "Nama": "Asam klorida asetat",
+    "Rumus": "CH2ClCOOH",
+    "Bahaya": "Korosif, menyebabkan iritasi dan luka bakar.",
+    "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
+    "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
   },
   {
-    "No":23,
-    "Bahan":"Dietil eter",
-    "Bahaya":"Mudah terbakar, anestetik"
+    "Nama": "Akrilonitril",
+    "Rumus": "C3H3N",
+    "Bahaya": "Beracun, mudah terbakar, iritasi saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan APD, hindari inhalasi.",
+    "Penyimpanan": "Simpan jauh dari api dan panas."
   },
   {
-    "No":24,
-    "Bahan":"Metil etil keton",
-    "Bahaya":"Iritasi pernapasan"
+    "Nama": "Asam kaproat",
+    "Rumus": "C6H12O2",
+    "Bahaya": "Iritasi kulit dan mata.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan dan pelindung mata.",
+    "Penyimpanan": "Simpan di tempat kering dan tertutup."
   },
   {
-    "No":25,
-    "Bahan":"Piridin",
-    "Bahaya":"Toksik, mudah terbakar"
+    "Nama": "Butil alkohol",
+    "Rumus": "C4H10O",
+    "Bahaya": "Mudah terbakar, iritasi kulit dan pernapasan.",
+    "Tindakan Pencegahan": "Gunakan ventilasi baik dan hindari kontak kulit.",
+    "Penyimpanan": "Simpan jauh dari api."
   },
   {
-    "No":26,
-    "Bahan":"Nitrobenzena",
-    "Bahaya":"Karsinogen, sangat toksik"
+    "Nama": "Asam oksalat",
+    "Rumus": "C2H2O4",
+    "Bahaya": "Korosif, dapat menyebabkan iritasi kulit dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan APD lengkap dan hindari inhalasi.",
+    "Penyimpanan": "Simpan dalam wadah tertutup."
   },
   {
-    "No":27,
-    "Bahan":"Asam pikrat",
-    "Bahaya":"Eksplosif, toksik"
+    "Nama": "Metil metakrilat",
+    "Rumus": "C5H8O2",
+    "Bahaya": "Mudah terbakar, iritasi mata dan kulit.",
+    "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
+    "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
   },
   {
-    "No":28,
-    "Bahan":"Tetrahidrofuran",
-    "Bahaya":"Mudah terbakar, iritasi"
+    "Nama": "Asam laktat",
+    "Rumus": "C3H6O3",
+    "Bahaya": "Iritasi ringan pada kulit dan mata.",
+    "Tindakan Pencegahan": "Gunakan sarung tangan jika kontak langsung.",
+    "Penyimpanan": "Simpan di tempat kering."
   },
   {
-    "No":29,
-    "Bahan":"Dimetil sulfoksida",
-    "Bahaya":"Penyerapan kulit cepat"
+    "Nama": "Benzaldehida",
+    "Rumus": "C7H6O",
+    "Bahaya": "Iritasi kulit dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan masker dan sarung tangan.",
+    "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
   },
   {
-    "No":30,
-    "Bahan":"Asam salisilat",
-    "Bahaya":"Iritasi kulit, mata"
-  },
-  {
-    "No":31,
-    "Bahan":"Toluidina",
-    "Bahaya":"Toksik, karsinogen"
-  },
-  {
-    "No":32,
-    "Bahan":"Kresol",
-    "Bahaya":"Korosif, toksik"
-  },
-  {
-    "No":33,
-    "Bahan":"Nafthalen",
-    "Bahaya":"Karsinogen, iritasi"
-  },
-  {
-    "No":34,
-    "Bahan":"Ftalat",
-    "Bahaya":"Toksik reproduksi"
-  },
-  {
-    "No":35,
-    "Bahan":"Butil asetat",
-    "Bahaya":"Mudah terbakar, iritasi"
-  },
-  {
-    "No":36,
-    "Bahan":"Heptana",
-    "Bahaya":"Mudah terbakar, narkotik"
-  },
-  {
-    "No":37,
-    "Bahan":"Nonana",
-    "Bahaya":"Mudah terbakar, narkotik"
-  },
-  {
-    "No":38,
-    "Bahan":"Dekana",
-    "Bahaya":"Mudah terbakar"
-  },
-  {
-    "No":39,
-    "Bahan":"Isoprena",
-    "Bahaya":"Mudah terbakar, karsinogen"
-  },
-  {
-    "No":40,
-    "Bahan":"Klorobenzena",
-    "Bahaya":"Iritasi, toksik"
-  },
-  {
-    "No":41,
-    "Bahan":"Diklorometana",
-    "Bahaya":"Toksik, karsinogen"
-  },
-  {
-    "No":42,
-    "Bahan":"Metil isobutil keton",
-    "Bahaya":"Iritasi, narkotik"
-  },
-  {
-    "No":43,
-    "Bahan":"Propilena glikol",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":44,
-    "Bahan":"Gliserol",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":45,
-    "Bahan":"Asam oleat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":46,
-    "Bahan":"Asam palmitat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":47,
-    "Bahan":"Asam stearat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":48,
-    "Bahan":"Vinil klorida",
-    "Bahaya":"Karsinogen, mudah terbakar"
-  },
-  {
-    "No":49,
-    "Bahan":"Akrilamida",
-    "Bahaya":"Karsinogen, neurotoksik"
-  },
-  {
-    "No":50,
-    "Bahan":"Bisfenol A",
-    "Bahaya":"Toksik reproduksi"
-  },
-  {
-    "No":51,
-    "Bahan":"Antracena",
-    "Bahaya":"Karsinogen, iritasi"
-  },
-  {
-    "No":52,
-    "Bahan":"Fenantrena",
-    "Bahaya":"Karsinogen, iritasi"
-  },
-  {
-    "No":53,
-    "Bahan":"Pirena",
-    "Bahaya":"Karsinogen, iritasi"
-  },
-  {
-    "No":54,
-    "Bahan":"Fluorena",
-    "Bahaya":"Iritasi, karsinogen"
-  },
-  {
-    "No":55,
-    "Bahan":"Indena",
-    "Bahaya":"Iritasi"
-  },
-  {
-    "No":56,
-    "Bahan":"Kumarina",
-    "Bahaya":"Iritasi, hepatotoksik"
-  },
-  {
-    "No":57,
-    "Bahan":"Resorsinol",
-    "Bahaya":"Korosif, iritasi"
-  },
-  {
-    "No":58,
-    "Bahan":"Hidrokuinon",
-    "Bahaya":"Korosif, iritasi"
-  },
-  {
-    "No":59,
-    "Bahan":"Tereftalat",
-    "Bahaya":"Toksik reproduksi"
-  },
-  {
-    "No":60,
-    "Bahan":"Asam adipat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":61,
-    "Bahan":"Asam maleat",
-    "Bahaya":"Korosif, iritasi"
-  },
-  {
-    "No":62,
-    "Bahan":"Asam fumarat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":63,
-    "Bahan":"Asam itakonat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":64,
-    "Bahan":"Asam tartarat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":65,
-    "Bahan":"Maltol",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":66,
-    "Bahan":"Sorbitol",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":67,
-    "Bahan":"Mannitol",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":68,
-    "Bahan":"Trehalosa",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":69,
-    "Bahan":"Sukrosa",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":70,
-    "Bahan":"Ribosa",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":71,
-    "Bahan":"Galaktosa",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":72,
-    "Bahan":"Fruktosa",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":73,
-    "Bahan":"Glukosa",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":74,
-    "Bahan":"Laktosa",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":75,
-    "Bahan":"Selulosa",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":76,
-    "Bahan":"Lignin",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":77,
-    "Bahan":"Pektin",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":78,
-    "Bahan":"Agar-agar",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":79,
-    "Bahan":"Kitosan",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":80,
-    "Bahan":"Asam hialuronat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":81,
-    "Bahan":"Keratin",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":82,
-    "Bahan":"Kasein",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":83,
-    "Bahan":"Albumin",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":84,
-    "Bahan":"Gelatin",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":85,
-    "Bahan":"Peptida",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":86,
-    "Bahan":"Polipeptida",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":87,
-    "Bahan":"Polisakarida",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":88,
-    "Bahan":"Dekstrin",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":89,
-    "Bahan":"Glikogen",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":90,
-    "Bahan":"Histamin",
-    "Bahaya":"Alergi, iritasi"
-  },
-  {
-    "No":91,
-    "Bahan":"Adrenalin",
-    "Bahaya":"Toksik dosis tinggi"
-  },
-  {
-    "No":92,
-    "Bahan":"Tirosin",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":93,
-    "Bahan":"Triptofan",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":94,
-    "Bahan":"Glutamat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":95,
-    "Bahan":"Asam aspartat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":96,
-    "Bahan":"Arginin",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":97,
-    "Bahan":"Lisina",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":98,
-    "Bahan":"Leusina",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":99,
-    "Bahan":"Valina",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":100,
-    "Bahan":"Alanina",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":101,
-    "Bahan":"Serina",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":102,
-    "Bahan":"Sisteina",
-    "Bahaya":"Bau menyengat, iritasi"
-  },
-  {
-    "No":103,
-    "Bahan":"Metionina",
-    "Bahaya":"Bau menyengat, iritasi"
-  },
-  {
-    "No":104,
-    "Bahan":"Fenilalanina",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":105,
-    "Bahan":"Glutamin",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":106,
-    "Bahan":"Prolina",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":107,
-    "Bahan":"Asam propionat",
-    "Bahaya":"Korosif, iritasi"
-  },
-  {
-    "No":108,
-    "Bahan":"Asam kaproat",
-    "Bahaya":"Iritasi, bau busuk"
-  },
-  {
-    "No":109,
-    "Bahan":"Asam kaprilat",
-    "Bahaya":"Iritasi, bau busuk"
-  },
-  {
-    "No":110,
-    "Bahan":"Asam laurat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":111,
-    "Bahan":"Asam miristat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":112,
-    "Bahan":"Asam arakidat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":113,
-    "Bahan":"Asam linoleat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":114,
-    "Bahan":"Asam linolenat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":115,
-    "Bahan":"Asam eikosapentaenoat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":116,
-    "Bahan":"Asam dokosaheksaenoat",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":117,
-    "Bahan":"Karbamazepin",
-    "Bahaya":"Toksik, neurotoksik"
-  },
-  {
-    "No":118,
-    "Bahan":"Kafeina",
-    "Bahaya":"Stimulasi berlebih"
-  },
-  {
-    "No":119,
-    "Bahan":"Teobromina",
-    "Bahaya":"Stimulasi, toksik hewan"
-  },
-  {
-    "No":120,
-    "Bahan":"Nikotina",
-    "Bahaya":"Sangat toksik, adiktif"
-  },
-  {
-    "No":121,
-    "Bahan":"Morfina",
-    "Bahaya":"Adiktif, depresan"
-  },
-  {
-    "No":122,
-    "Bahan":"Kodeina",
-    "Bahaya":"Adiktif, depresan"
-  },
-  {
-    "No":123,
-    "Bahan":"Heroin",
-    "Bahaya":"Sangat adiktif, ilegal"
-  },
-  {
-    "No":124,
-    "Bahan":"LSD (asam lisergat)",
-    "Bahaya":"Halusinogen, ilegal"
-  },
-  {
-    "No":125,
-    "Bahan":"THC (tetrahidrokanabinol)",
-    "Bahaya":"Psikoaktif"
-  },
-  {
-    "No":126,
-    "Bahan":"Psilosibin",
-    "Bahaya":"Halusinogen"
-  },
-  {
-    "No":127,
-    "Bahan":"Mescalina",
-    "Bahaya":"Halusinogen"
-  },
-  {
-    "No":128,
-    "Bahan":"Efedrina",
-    "Bahaya":"Stimulasi, toksik dosis tinggi"
-  },
-  {
-    "No":129,
-    "Bahan":"Amfetamina",
-    "Bahaya":"Adiktif, stimulan kuat"
-  },
-  {
-    "No":130,
-    "Bahan":"Metamfetamina",
-    "Bahaya":"Adiktif, stimulan ilegal"
-  },
-  {
-    "No":131,
-    "Bahan":"MDMA (ekstasi)",
-    "Bahaya":"Psikoaktif, neurotoksik"
-  },
-  {
-    "No":132,
-    "Bahan":"Dimetiltriptamina",
-    "Bahaya":"Halusinogen"
-  },
-  {
-    "No":133,
-    "Bahan":"Beta-karoten",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":134,
-    "Bahan":"Retinol",
-    "Bahaya":"Toksik dosis tinggi"
-  },
-  {
-    "No":135,
-    "Bahan":"Ergosterol",
-    "Bahaya":"Iritasi"
-  },
-  {
-    "No":136,
-    "Bahan":"Kolesterol",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":137,
-    "Bahan":"Lanosterol",
-    "Bahaya":"Iritasi debu"
-  },
-  {
-    "No":138,
-    "Bahan":"Sitosterol",
-    "Bahaya":"Iritasi ringan"
-  },
-  {
-    "No":139,
-    "Bahan":"Kapsaisin",
-    "Bahaya":"Iritasi kulit, mata"
-  },
-  {
-    "No":140,
-    "Bahan":"Piperina",
-    "Bahaya":"Iritasi hidung, mata"
-  },
-  {
-    "No":141,
-    "Bahan":"Eugenol",
-    "Bahaya":"Iritasi kulit"
-  },
-  {
-    "No":142,
-    "Bahan":"Limonena",
-    "Bahaya":"Iritasi, mudah terbakar"
-  },
-  {
-    "No":143,
-    "Bahan":"Linalool",
-    "Bahaya":"Iritasi kulit"
-  },
-  {
-    "No":144,
-    "Bahan":"Geraniol",
-    "Bahaya":"Iritasi kulit"
-  },
-  {
-    "No":145,
-    "Bahan":"Citronellol",
-    "Bahaya":"Iritasi kulit"
-  },
-  {
-    "No":146,
-    "Bahan":"Mentol",
-    "Bahaya":"Iritasi, pendingin"
-  },
-  {
-    "No":147,
-    "Bahan":"Kamfer",
-    "Bahaya":"Iritasi, neurotoksik dosis tinggi"
-  },
-  {
-    "No":148,
-    "Bahan":"Thujon",
-    "Bahaya":"Neurotoksik"
-  },
-  {
-    "No":149,
-    "Bahan":"Safrol",
-    "Bahaya":"Karsinogen"
-  },
-  {
-    "No":150,
-    "Bahan":"Kumena",
-    "Bahaya":"Iritasi, mudah terbakar"
-  }
-]
-
+    "Nama": "Asam maleat",
+    "Rumus": "C4H4O4",
+    "Bahaya": "Iritasi kulit, mata, dan saluran pernapasan.",
+    "Tindakan Pencegahan": "Gunakan APD lengkap dan
 }
 
 # Input pencarian bahan kimia
