@@ -140,6 +140,7 @@ bahan_kimia = {
     "Tindakan Pencegahan": "Gunakan pelindung mata dan sarung tangan.",
     "Penyimpanan": "Simpan di tempat tertutup dan sejuk."
 }
+}
 
 # Input pencarian bahan kimia
 nama_bahan = st.text_input("Masukkan nama bahan kimia:")
