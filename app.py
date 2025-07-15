@@ -193,7 +193,7 @@ bahan_kimia = {
   "Asam maleat":{
     "Rumus": "C4H4O4",
     "Bahaya": "Iritasi kulit, mata, dan saluran pernapasan.",
-    "Tindakan Pencegahan": "Gunakan APD lengkap
+    "Tindakan Pencegahan": "Gunakan APD lengkap."
   }
 }
 
