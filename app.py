@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Judul aplikasi
-st.title("Informasi Bahan Kimia Organik")
+st.title("Bahan Kimia Organik")
 
 # Data bahan kimia contoh
 bahan_kimia = {
