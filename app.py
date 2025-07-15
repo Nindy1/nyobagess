@@ -44,7 +44,7 @@ bahan_kimia = {
     "Tindakan Pencegahan": "Gunakan APD lengkap, hindari inhalasi.",
     "Penyimpanan": "Simpan di tempat gelap dan dingin."
   },
- "Asam asetat":{
+ "Asamasetat":{
     "Rumus": "CH3COOH",
     "Bahaya": "Iritasi kulit dan mata, korosif pada konsentrasi tinggi.",
     "Tindakan Pencegahan": "Gunakan sarung tangan dan pelindung mata.",
