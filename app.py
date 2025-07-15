@@ -802,3 +802,15 @@ if nama_bahan:
         st.error("Data bahan kimia tidak ditemukan. Silakan coba nama lain.")
 else:
     st.info("Masukkan nama bahan kimia untuk melihat informasinya.")
+
+
+ if nama in gambar_molekul:
+        st.image(gambar_molekul[nama], caption=f"Struktur {nama}")
+    else:
+        st.info("Gambar belum tersedia.")
+    
+    # Tampilkan animasi vibrasi molekul
+    if nama in vibrasi_molekul:
+        st.image(vibrasi_molekul[nama], caption=f"Vibrasi Molekul {nama}")
+    else:
+        st.info("Vibrasi molekul belum tersedia.")
