@@ -6,7 +6,7 @@ st.title("Bahaya pada Bahan Kimia")
 # Data bahan kimia contoh
 bahan_kimia = {
 }
-    "Benzena"{
+    "Benzena"{,
     "Rumus": "C6H6",
     "Bahaya": "Karsinogen, mudah terbakar, iritasi kulit dan saluran pernapasan.",
     "Tindakan Pencegahan": "Gunakan APD, hindari inhalasi dan kontak langsung.",
