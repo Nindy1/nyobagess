@@ -68,7 +68,7 @@ bahan_kimia = {
     "Tindakan Pencegahan": "Gunakan APD dan ventilasi baik.",
     "Penyimpanan": "Simpan di tempat gelap dan sejuk."
   },
-"Etilena glikol":{
+ "Etilena glikol":{
     "Rumus": "C2H6O2",
     "Bahaya": "Beracun jika tertelan, menyebabkan gagal ginjal.",
     "Tindakan Pencegahan": "Gunakan sarung tangan, hindari konsumsi.",
