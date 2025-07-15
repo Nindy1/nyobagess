@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Bahan Kimia Organik")
 
 # Data bahan kimia contoh
-bahan_kimia = {
+bahan_kimia = {}
  "Benzena":{
     "Rumus": "C6H6",
     "Bahaya": "Karsinogen, mudah terbakar, iritasi kulit dan saluran pernapasan.",
@@ -775,6 +775,7 @@ bahan_kimia = {
     "Tindakan Pencegahan": "Gunakan APD dan hindari kontak langsung.",
     "Penyimpanan": "Simpan di tempat kering dan berventilasi."
   }
+
 
 
 # Input pencarian bahan kimia
