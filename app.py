@@ -194,8 +194,7 @@ bahan_kimia = {
     "Rumus": "C4H4O4",
     "Bahaya": "Iritasi kulit, mata, dan saluran pernapasan.",
     "Tindakan Pencegahan": "Gunakan APD lengkap
-  },
-
+  }
 }
 
 # Input pencarian bahan kimia
