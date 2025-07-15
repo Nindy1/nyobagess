@@ -355,8 +355,7 @@ bahan_kimia = {
     "Bahaya": "Tidak berbahaya secara langsung, namun mudah teroksidasi.",
     "Tindakan Pencegahan": "Hindari paparan cahaya.",
     "Penyimpanan": "Simpan dalam wadah gelap dan tertutup."
-  },
-  
+  },
   "Asam piruvat":{
     "Rumus": "C3H4O3",
     "Bahaya": "Iritasi kulit dan mata.",
